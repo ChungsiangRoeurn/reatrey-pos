@@ -1,0 +1,13 @@
+{
+  "name": "reatrey-pos",
+  "private": true,
+  "packageManager": "pnpm@8.10.5",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev:web": "pnpm --filter web dev",
+    "dev:api": "pnpm --filter api start:dev"
+  }
+}

@@ -1,0 +1,21 @@
+# Node
+node_modules
+pnpm-lock.yaml
+
+# Next.js
+.next
+out
+
+# NestJS
+dist
+
+# Env
+.env
+.env.*.local
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
