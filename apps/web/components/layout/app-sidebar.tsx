@@ -5,7 +5,6 @@ import {
   AudioWaveform,
   BookOpen,
   GalleryVerticalEnd,
-  Map,
   PieChart,
   Settings2,
   SquareTerminal,
@@ -32,8 +31,8 @@ const data = {
   ],
   navMain: [
     {
-      title: "Overview",
-      url: "/overview",
+      title: "Dashboard",
+      url: "/dashboard",
       icon: PieChart,
       isActive: true,
     },
@@ -86,23 +85,6 @@ const data = {
       ],
     },
   ],
-  //   projects: [
-  //     {
-  //       name: "Quick POS",
-  //       url: "/sales/new",
-  //       icon: SquareTerminal,
-  //     },
-  //     {
-  //       name: "Low Stock",
-  //       url: "/products/stock",
-  //       icon: Frame,
-  //     },
-  //     {
-  //       name: "Revenue",
-  //       url: "/reports/sales",
-  //       icon: PieChart,
-  //     },
-  //   ],
   user: {
     name: "Admin",
     email: "reatreyapp@gmail.com",

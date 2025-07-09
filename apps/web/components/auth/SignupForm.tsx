@@ -67,7 +67,7 @@ export function SignUpForm() {
               <FormItem>
                 <FormLabel>Email</FormLabel>
                 <FormControl>
-                  <Input placeholder="you@example.com" {...field} />
+                  <Input placeholder="email@gmail.com" {...field} />
                 </FormControl>
                 <FormMessage />
               </FormItem>
@@ -109,7 +109,7 @@ export function SignUpForm() {
       </Form>
       <div className="text-sm text-center mt-4">
         Already have an account?{" "}
-        <Link href="/auth/login" className="text-primary underline">
+        <Link href="/login" className="text-primary underline">
           Login
         </Link>
       </div>
